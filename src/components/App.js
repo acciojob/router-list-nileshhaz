@@ -12,6 +12,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={ItemList} />
         <Route path="/items/:id" component={ItemDetail} />
+        <Route path="*" component={() => <h1>404 Not Found</h1>} />
       </Switch>
     </Router>
     </>
