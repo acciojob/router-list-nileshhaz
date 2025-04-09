@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Home() {
+function ItemList() {
   return (
     <>
       <h1>Item List</h1>
@@ -13,4 +13,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ItemList;
